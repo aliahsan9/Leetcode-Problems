@@ -85,4 +85,4 @@ class Program
         median = solution.FindMedianSortedArrays(nums1, nums2);
         Console.WriteLine("Median: " + median); // Output: Median: 2.5
     }
-}
+} 
