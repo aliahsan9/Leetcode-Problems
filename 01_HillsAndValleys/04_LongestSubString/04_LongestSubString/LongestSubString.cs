@@ -6,7 +6,7 @@ public class Solution
     public int LengthOfLongestSubstring(string s)
     {
         int n = s.Length;
-        int maxLength = 0;   
+        int maxLength = 0;
         Dictionary<char, int> charIndexMap = new Dictionary<char, int>();
         int left = 0;
 
@@ -33,7 +33,7 @@ class Program
     {
         Solution solution = new Solution();
         Console.WriteLine("Enter a string:");
-        string input = Console.ReadLine() ?? string.Empty;
+        string input = Console.ReadLine();
         int result = solution.LengthOfLongestSubstring(input);
         Console.WriteLine("Length of longest substring without repeating characters: " + result);
     }
