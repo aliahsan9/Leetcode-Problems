@@ -22,10 +22,10 @@ public class Solution
             maxFruits = Math.Max(maxFruits, total);
         }
 
-        return maxFruits; 
+        return maxFruits;
     }
-    
-     // Helper function to check if range [leftPos, rightPos] is reachable from startPos within k steps
+
+    // Helper function to check if range [leftPos, rightPos] is reachable from startPos within k steps
     private bool CanReach(int leftPos, int rightPos, int startPos, int k)
     {
         int option1 = Math.Abs(startPos - leftPos) + (rightPos - leftPos);
@@ -43,7 +43,7 @@ public class Solution
         {
             new int[] {2, 8},
             new int[] {6, 3},
-            new int[] {8, 6}   
+            new int[] {8, 6}
         };
         int startPos1 = 5, k1 = 4;
         Console.WriteLine("Output 1: " + solution.MaxTotalFruits(fruits1, startPos1, k1)); // Expected: 9

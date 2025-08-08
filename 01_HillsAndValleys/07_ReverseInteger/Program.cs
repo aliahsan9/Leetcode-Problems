@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Solution 
+public class Solution
 {
     public int Reverse(int x)
     {

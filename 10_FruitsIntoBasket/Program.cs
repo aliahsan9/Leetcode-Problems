@@ -19,7 +19,7 @@ class Program
     }
 }
 
-public class Solution
+public class Solution 
 {
     public int TotalFruit(int[] fruits)
     {

@@ -48,12 +48,7 @@ git push origin main
 | -: | ----------------- | ------------------------ | ------ |
 | 01 | Hills and Valleys | [Problem Description](#) | ✅ Done |
 | 02 | Two Sum           | [Problem Description](#) | ✅ Done |
-| 02 | Two Sum           | [Problem Description](#) | ✅ Done |
-| 02 | Two Sum           | [Problem Description](#) | ✅ Done |
-| 02 | Two Sum           | [Problem Description](#) | ✅ Done |
-| 02 | Two Sum           | [Problem Description](#) | ✅ Done |
 | 03 | Coming Soon...    | Coming Soon...           | ⏳      |
 🤝 Contributions
 This is a personal learning repo — but if you spot a bug or have a better solution idea, feel free to open a pull request or drop an issue!
 
- 
